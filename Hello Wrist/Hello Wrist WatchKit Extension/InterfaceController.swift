@@ -5,10 +5,15 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     @IBAction func saySomething() {
-        messageLabel.setText("Hello Wrist!")
+        if messageLabel.text == "Hello Wrist!" {
+            messageLabel.setText("Bye Wrist!")
+        } else {
+            messageLabel.setText("Hello Wrist!")
+        }
     }
 
     @IBOutlet var messageLabel: WKInterfaceLabel!
+    @IBOutlet var button: WKInterfaceButton!
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)

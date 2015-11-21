@@ -18,6 +18,7 @@
                         </button>
                     </items>
                     <connections>
+                        <outlet property="button" destination="XUo-GX-u06" id="twv-D5-zDp"/>
                         <outlet property="messageLabel" destination="iYg-1N-ESF" id="GiN-OB-nR3"/>
                     </connections>
                 </controller>
