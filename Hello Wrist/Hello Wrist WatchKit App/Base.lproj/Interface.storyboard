@@ -10,8 +10,12 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Hello_Wrist_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Hello Wrist!" textAlignment="center" id="iYg-1N-ESF"/>
-                        <button width="1" alignment="left" title="Say Hello" id="XUo-GX-u06"/>
+                        <label alignment="center" textAlignment="center" id="iYg-1N-ESF"/>
+                        <button width="1" alignment="left" title="Say Hello" id="XUo-GX-u06">
+                            <connections>
+                                <action selector="saySomething" destination="AgC-eL-Hgc" id="IRn-t2-eCk"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>

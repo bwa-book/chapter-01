@@ -4,6 +4,9 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBAction func saySomething() {
+    }
+
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
