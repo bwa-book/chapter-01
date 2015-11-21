@@ -17,6 +17,9 @@
                             </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="messageLabel" destination="iYg-1N-ESF" id="GiN-OB-nR3"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
