@@ -11,6 +11,7 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Hello_Wrist_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="center" text="Hello Wrist!" textAlignment="center" id="iYg-1N-ESF"/>
+                        <button width="1" alignment="left" title="Say Hello" id="XUo-GX-u06"/>
                     </items>
                 </controller>
             </objects>
