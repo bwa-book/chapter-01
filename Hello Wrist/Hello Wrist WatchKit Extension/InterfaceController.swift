@@ -3,12 +3,17 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    private var sayingHello = true
 
     @IBAction func saySomething() {
-        if messageLabel.text == "Hello Wrist!" {
-            messageLabel.setText("Bye Wrist!")
-        } else {
+        if sayingHello {
+            button.setTitle("Say Goodbye")
             messageLabel.setText("Hello Wrist!")
+            sayingHello = false
+        } else {
+            button.setTitle("Say Hello")
+            messageLabel.setText("Bye Wrist!")
+            sayingHello = true
         }
     }
 
